@@ -1,0 +1,573 @@
+/*Fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Fugaz+One&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&display=swap');
+
+/*Variables*/
+:root{
+    --primarycolor: #000000;
+    --secondarycolor: #FD4E26;
+    --colorbotonescambio: #81C8EE;
+    --colorbotonesnormal: #D9D9D9;
+    --colorcajascontenido: #FF2F00;
+    --fontfamily: 'Poppins', sans-serif;
+}
+
+/*Body Fuente*/
+body{
+    font-family: var(--fontfamily);
+}
+
+/*Header*/
+header{
+  background: url(../img/FondoP2.jpg);
+  width: 100%;
+  position: relative;
+  padding-bottom: 120px;
+}
+
+/*Header Barra Nav*/
+header .bg-portafolio{
+    background: var(--primarycolor);
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    z-index: 1;
+  }
+
+/*Header Boton Inicio*/
+  header button{
+    width: 16%;
+    background: var(--secondarycolor);
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 50px;
+  }
+
+/*Header Boton Inicio Cambio Color*/
+  header button:hover{
+    background: var(--colorbotonescambio);
+  }
+
+/*Header Boton Inicio etiqueta a*/
+  header button a{
+    text-decoration: none;
+  }
+
+/*Header Boton Inicio Texto*/
+  header button a h2{
+      text-align: center;
+      font-family: var(--fontfamily);
+      color: var(--colorbotonesnormal);
+      font-size: 25px;
+      text-transform: uppercase;
+      margin: 0;
+  }
+
+/*Header Boton Inicio Cambio Color letras*/
+  header button a h2:hover{
+    color: var(--colorcajascontenido);
+  }
+
+  /*Header Titulo*/
+  #titulo .cont-left{
+    padding-top: 230px;
+    position: relative;
+  }
+
+/*Header Contenedor izquierdo*/
+  #titulo .cont-left h1{
+      color: var(--colorcajascontenido);
+      font-size: 80px;
+      font-family: var(--fontfamily);
+      display:flex;
+      justify-content: center;
+      text-align: center;
+  }
+
+/*Header Contenedor Derecho*/
+  #titulo .cont-right{
+    justify-content: center;
+    padding: 100px 30px 0px 0px;
+  }
+
+/*Header Cont.Derecho Estilo Botones*/
+  #titulo .cont-right .botones{
+    width: 100%;
+    height: 2%;
+    background: var(--colorbotonesnormal);
+    border: 1px solid black;
+  }
+
+/*Header Cont.Derecho Estilo Botones Camb.Color*/
+  #titulo .cont-right .botones:hover{
+    background: var(--colorbotonescambio);
+  }
+
+/*Header Cont.Derecho Estilo Botones h2*/
+  #titulo .cont-right .botones h2{
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: var(--fontfamily);
+    color: var(--primarycolor);
+  }
+
+/*Header Cont.Derecho Botones Cambio.Color h2*/
+  #titulo .cont-right .botones h2:hover{
+    color: var(--colorcajascontenido);
+  }
+
+/*Main*/
+main{
+  width: 100%;
+  position: relative;
+}
+
+/*Main Perfil Fondo y tamano*/
+#perfil{
+  width: 100%;
+  position: relative;
+  background: var(--primarycolor);
+  padding-top: 130px;
+  padding-bottom: 40px;
+}
+
+/*Main Caja Contenedora Izquierda*/
+#perfil .p-profesional{
+  height: 500px;
+  text-align: center;
+}
+
+/*Main Caja tipo de letra H2*/
+#perfil .p-profesional h2{
+  color: var(--colorcajascontenido);
+  font-size: 80px;
+  font-family: var(--fontfamily);
+  display:flex;
+  justify-content: center;
+  text-align: center;
+}
+
+/*Main Caja tipo de letra Parrafo*/
+#perfil .p-profesional p{
+  color: var(--colorbotonesnormal);
+  font-size: 16px;
+  font-family: var(--fontfamily);
+  text-align: left;
+  padding: 20px 30px 20px 30px;
+}
+
+/*Main Caja Contnedora Derecha*/
+#perfil .p-profesionalFoto{
+  height: 500px;
+  text-align: center;
+}
+
+/*Main Caja Derecha estilos Boton*/
+#perfil .p-profesionalFoto button{
+  width: 200px;
+  background: var(--secondarycolor);
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 70px;
+}
+
+/*Main Caja Derecha estilos Boton Cambio Color*/
+#perfil .p-profesionalFoto button:hover{
+  background: var(--colorbotonescambio);
+}
+
+/*Main Caja Cont.Derecha boton link*/
+#perfil .p-profesionalFoto button a{
+  text-decoration: none;
+  text-align: center;
+}
+
+/*Main Caja Cont.Derecha boton a h2*/
+#perfil .p-profesionalFoto button a h2{
+  text-align: center;
+  font-family: var(--fontfamily);
+  color: var(--colorbotonesnormal);
+  font-size: 25px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+/*Main Caja Derecha estilos Boton h2 Cambio.Color h2*/
+#perfil .p-profesionalFoto button a h2:hover{
+  color: var(--colorcajascontenido);
+}
+
+/*Main Caja Cont.Derecha estilos img*/
+#perfil .p-profesionalFoto img{
+  width: 400px;
+  border-radius: 200px;
+  padding-top: 30px;
+}
+
+/*Main Caja de Pie de Pag*/
+#perfil .piePagina{
+  padding: 20px 10px 20px 10px;
+}
+
+/*Main Caja de Pie Pag estilos Logo Img*/
+#perfil .piePagina img{
+  width: 70px;
+}
+
+/*Main Caja de Pie Pag estilos texto h3*/
+#perfil .piePagina h3{
+  display: inline-block;
+  font-size: 15px;
+  font-family: var(--fontfamily);
+  color: var(--colorbotonesnormal);
+}
+
+/*Main Secion estudios*/
+#estudios{
+  width: 100%;
+  position: relative;
+  background: var(--primarycolor);
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+
+/*Main Seccion Titulo Estudios H2*/
+#estudios h2{
+  color: var(--colorcajascontenido);
+  font-size: 80px;
+  font-family: var(--fontfamily);
+  text-align: center;
+}
+
+/*Main Seccion Estudios Cont.Izq*/
+#estudios .cont-left{
+  padding-top: 40px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Main Seccion Estudios Caj.Centrar div Img2*/
+#estudios .cajaIzquierda .img1{
+  text-align: center;
+}
+
+/*Main Seccion Estudios Caja.Izq imagen*/
+#estudios .cajaIzquierda img{
+  width: 250px;
+}
+
+/*Main Seccion Estudios Caja.Izq Parrafo img*/
+#estudios .cajaIzquierda .parrafo img{
+  width: 250px;
+}
+
+/*Main Seccion Estudios Cajita Parrafo */
+#estudios .parrafo{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+/*Main Seccion Estudios Cajita Parrafo Caj.Centrada */
+#estudios .parrafo .centrado{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*Main Seccion Estudios div Caj.Centrada P */
+#estudios .parrafo .centrado p{
+  color: var(--colorbotonesnormal);
+  font-size: 16px;
+  font-family: var(--fontfamily);
+  text-align: left;
+}
+
+/*Main Seccion Estudios div Cont.Centrar*/
+#estudios .cont-centrar{
+  padding-top: 40px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Main Seccion Estudios Caj.Centrar div Img2*/
+#estudios .cajaCentrar .img2{
+  text-align: center;
+}
+
+/*Main Seccion Estudios div Caj.Centrar Img*/
+#estudios .cajaCentrar img{
+  width: 150px;
+}
+
+/*Main Seccion Estudios div Caja.Centrar div parrafo Img*/
+#estudios .cajaCentrar .parrafo img{
+  width: 250px;
+}
+
+/*Main Seccion Estudios div Cont.Right*/
+#estudios .cont-right{
+  padding-top: 40px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Main Seccion Estudios Caj.Right div Img2*/
+#estudios .cajaRight .img3{
+  text-align: center;
+}
+
+/*Main Seccion Estudios div Caj.Right Img*/
+#estudios .cajaRight img{
+  width: 170px;
+}
+
+/*Main Seccion Estudios div Caja.Right div parrafo Img*/
+#estudios .cajaRight .parrafo img{
+  width: 250px;
+}
+
+/*Main Caja de Pie de Pag2*/
+#estudios .piePag2{
+  padding: 20px 10px 20px 10px;
+  text-align: right;
+}
+
+/*Main  Estudios Pie.pag Estilos Boton*/
+#estudios .piePag2 button{
+  width: 200px;
+  background: var(--secondarycolor);
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 70px;
+}
+
+/*Main  Estudios Pie.pag Boton Cambio Color */
+#estudios .piePag2 button:hover{
+  background: var(--colorbotonescambio);
+}
+
+/*Main Estudios Pie.pag Boton a*/
+#estudios .piePag2 button a{
+  text-decoration: none;
+  text-align: center;
+}
+
+/*Main Estudios Pie.pag Boton a h2*/
+#estudios .piePag2 button a h2{
+  text-align: center;
+  font-family: var(--fontfamily);
+  color: var(--colorbotonesnormal);
+  font-size: 25px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+/*Main  Estudios Pie.pag Boton cambio Color h2*/
+#estudios .piePag2 button a h2:hover{
+  color: var(--colorcajascontenido);
+}
+
+/*Main Seccion Experiencia estilos*/
+#experiencia{
+  width: 100%;
+  position: relative;
+  background: var(--primarycolor);
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+
+/*Main Seccion Experiencia estilos Titulos*/
+#experiencia .Titulo1 h2{
+  font-size: 30px;
+  color:#81C8EE;
+}
+
+/*Main Seccion Experiencia Imagenes*/
+#experiencia .ImgTra1{
+  text-align: center;
+}
+
+/*Main Seccion Experiencia Propiedades Imagenes*/
+#experiencia .ImgTra1 img{
+  width: 250px;
+  transform: rotate(-90deg);
+  padding: 20px 0px 170px 0px;
+}
+
+/*Main Seccion Experiencia Cont.Right*/
+#experiencia .cont-Right{
+  text-align: center;
+}
+
+/*Main Seccion Experiencia Caja.listaEx*/
+#experiencia .listaEx{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+/*Main Seccion Experiencia Caja.lista Caja.Titulo h2*/
+#experiencia .listaEx .TituloEx h2{
+  font-size: 40px;
+  color: var(--secondarycolor);
+  text-align: center;
+}
+
+/*Main Seccion Experiencia Caja.listaEx Caj.Img*/
+#experiencia .listaEx .ImgF img{
+  width: 350px;
+}
+
+/*Main Seccion Experiencia Caja.listaEx Caj.Lista Posicion*/
+#experiencia .listaEx .Lista{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*Main Seccion Experiencia Caja.listaEx Caj.Lista Estilos P*/
+#experiencia .listaEx .Lista p{
+  color: var(--colorbotonesnormal);
+  font-size: 17px;
+  font-family: var(--fontfamily);
+  text-align: left;
+}
+
+/*Main Seccion Experiencia PiePag3 Cajita */
+#experiencia .piePag3{
+  padding: 20px 10px 20px 10px;
+}
+
+/*Main Seccion Experiencia PiePag3 Cajita Texpe H2 */
+#experiencia .piePag3 .Texpe h2{
+  font-size:80px;
+  color: var(--colorcajascontenido);
+  display: inline-block;
+}
+
+/*Main Seccion Experiencia PiePag3 Cajita Texpe y boton Caj*/
+#experiencia .piePag3 .Texpe .BtDere{
+  text-align: right ;
+}
+
+/*Main Seccion Experiencia PiePag3 Ca.Texpe estilos Bt */
+#experiencia .piePag3 .Texpe button{
+  width: 200px;
+  background: var(--secondarycolor);
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 70px;
+}
+
+/*Main Seccion Experiencia PiePag3 Bt Cambio Color*/
+#experiencia .piePag3 .Texpe button:hover{
+  background: var(--colorbotonescambio);
+}
+
+/*Main Seccion Experiencia PiePag3 Caj.Texpe Estilo Bt a*/
+#experiencia .piePag3 .Texpe button a{
+  text-decoration: none;
+  text-align: center;
+}
+
+/*Main Seccion Experiencia PiePag3 Caj.Texpe Estilo Bt a h2*/
+#experiencia .piePag3 .Texpe button a h2{
+  text-align: center;
+  font-family: var(--fontfamily);
+  color: var(--colorbotonesnormal);
+  font-size: 25px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+/*Main Seccion Experiencia PiePag3 Bt Cambio Color h2*/
+#experiencia .piePag3 .Texpe button a h2:hover{
+  color: var(--colorcajascontenido);
+}
+
+/*Main Seccion Portafolio Estilos H2*/
+#Portafolio h2{
+  color: var(--colorcajascontenido);
+  font-size: 80px;
+  font-family: var(--fontfamily);
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+/*Main Seccion Portafolio Estilos */
+#Portafolio{
+  width: 100%;
+  position: relative;
+  background: var(--primarycolor);
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+
+/*Main Seccion Portafolio Piepag4*/
+#Portafolio .piePag4{
+  padding: 20px 10px 20px 10px;
+  text-align: right;
+}
+
+/*Main Seccion Portafolio Estilos Buton*/
+#Portafolio .piePag4 button{
+  width: 200px;
+  height: 50px;
+  background: var(--secondarycolor);
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 70px;
+}
+
+/*Main Seccion Portafolio Buton Camb.Color*/
+#Portafolio .piePag4 button:hover{
+  background:  var(--colorbotonescambio);
+}
+
+/*Main Seccion Portafolio Estilos Buton a*/
+#Portafolio .piePag4 button a{
+  text-decoration: none;
+  text-align: center;
+}
+
+/*Main Seccion Portafolio Estilos Buton a h2*/
+#Portafolio .piePag4 button a h2{
+  text-align: center;
+  font-family: var(--fontfamily);
+  color: var(--colorbotonesnormal);
+  font-size: 25px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+/*Main Seccion Portafolio Buton Camb.Color h2*/
+#Portafolio .piePag4 button a h2:hover{
+  color: var(--colorcajascontenido);
+}
+
+/*Footer Propiedades*/
+footer{
+  background: var(--colorcajascontenido);
+  padding: 20px;
+  color: var(--colorbotonesnormal);
+  text-align: center;
+}
+
+/*Footer Estilos Social*/
+footer .social {
+  background: var(--primarycolor);
+  color: white;
+  border: 6px solid var(--colorbotonescambio);
+  font-size: 30px;
+}
+
+/*Footer Estilos Social img*/
+footer .social img {
+  max-width: 30px;
+}
